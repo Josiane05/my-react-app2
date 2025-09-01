@@ -95,3 +95,12 @@ button:focus-visible {
    font-family: Arial, sans-serif;
   color: rgb(195, 193, 193)
 }
+
+.button{
+  background-color: hsl(200, 100%, 50%) ;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
