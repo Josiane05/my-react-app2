@@ -1,11 +1,9 @@
-
-function Footer(){
-    return(
-        <Footer>
-            <p>&copy; your website name</p>
-        </Footer>
-    );
-
-}
+function Footer(){     
+    return(         
+        <footer>
+            <p>&copy; Your website name</p>         
+        </footer>     
+    );  
+}  
 
 export default Footer
