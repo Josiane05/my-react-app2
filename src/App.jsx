@@ -9,8 +9,8 @@ function App() {
     return(
         <>
           <Header/>
-          <Food/>
           <Card/>
+          <Food/>
           <Footer/>
         </>
     );
