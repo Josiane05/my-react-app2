@@ -1,10 +1,10 @@
 
 function Client(props){
     return(
-        <div>
+        <div className="client">
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
-            <p>Client: {props.isStudent ? "Yes" : "No"}</p>
+            <p>Client: {props.isClient ? "Yes" : "No"}</p>
         </div>
     );
 

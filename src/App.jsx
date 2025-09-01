@@ -13,7 +13,10 @@ function App() {
           <Header/>
           <Card/>
           <Food/>
-          <Client name="spongebob" age={30} isStudent={true}/>
+          <Client name="spongebob" age={30} isClient={true}/>
+          <Client name="Claude" age={24} isClient={true}/>
+          <Client name="Damour" age={25} isClient={false}/>
+          <Client name="Nijojo" age={20} isClient={true}/>
           <Footer/>
           <Button/>
         </>
