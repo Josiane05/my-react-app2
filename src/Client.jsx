@@ -1,4 +1,4 @@
-import propTypes from 'prop-Types'
+import PropTypes from 'prop-types'
 function Client(props){
     return(
         <div className="client">
@@ -9,10 +9,10 @@ function Client(props){
     );
 
 }
-Client.protoTypes = {
-    name: propTypes.string,
-    age: propTypes.number,
-    isClient: propTypes.bool,
-
+Client.propTypes = {
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isClient: PropTypes.bool,
 }
+
 export default Client;
