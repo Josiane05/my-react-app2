@@ -1,4 +1,4 @@
-
+import propTypes from 'prop-Types'
 function Client(props){
     return(
         <div className="client">
@@ -7,6 +7,12 @@ function Client(props){
             <p>Client: {props.isClient ? "Yes" : "No"}</p>
         </div>
     );
+
+}
+Client.protoTypes = {
+    name: propTypes.string,
+    age: propTypes.number,
+    isClient: propTypes.bool,
 
 }
 export default Client;
