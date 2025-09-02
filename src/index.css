@@ -115,3 +115,21 @@ button:focus-visible {
 .client p{
   margin: 0;
 }
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: hsl(118, 48%, 38%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: hsl(356, 67%, 46%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
