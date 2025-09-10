@@ -6,6 +6,7 @@ import Button from './Button.jsx'
 import Client from './Client.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import MyComponent from './MyComponent.jsx'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Header/>
           <UserGreeting isLoggedIn={true} username="Josiane"/>
           <Card/>
+          <MyComponent/>
           <Food/>
           <List/>
           <Client name="spongebob" age={30} isClient={true}/>
