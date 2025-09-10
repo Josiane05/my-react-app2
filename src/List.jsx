@@ -13,13 +13,11 @@ function List(){
     // fruits.sort((a, b) => b.calories - a.calories); // REVERSE NUMERIC
 
     //const lowCalFruits = fruits.filter(fruit => fruit.calories < 100); //LOWCALFRUITS
-     const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
+    //const highCalFruits = fruits.filter(fruit => fruit.calories >= 100); //HIGHCALFRUITS
     
-    
-
-    const listItems = highCalFruits.map(highCalFruits => <li key={highCalFruits.id}>
-                                                       {highCalFruits.name}: &nbsp;
-                                                       <b>{highCalFruits.calories}</b></li>);
+    const listItems = fruits.map(fruits => <li key={fruits.id}>
+                                                       {fruits.name}: &nbsp;
+                                                       <b>{fruits.calories}</b></li>);
 
     return(<ol>{listItems}</ol>);
 }
