@@ -1,7 +1,7 @@
 
 function List(){
 
-    const fruits = ["Apple", "Orange", "Banana"];
+    const fruits = ["Apple", "Orange", "Banana", "coconat", "pinapple"];
 
     return(fruits);
 }
