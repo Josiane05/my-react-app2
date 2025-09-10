@@ -12,10 +12,11 @@ function List(){
     //fruits.sort((a, b) => a.calories - b.calories); // NUMERIC
     // fruits.sort((a, b) => b.calories - a.calories); // REVERSE NUMERIC
 
+    const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
 
-    const listItems = fruits.map(fruit => <li key={fruit.id}>
-                                             {fruit.name}: &nbsp;
-                                             <b>{fruit.calories}</b></li>);
+    const listItems = lowCalFruits.map(lowCalFruits => <li key={lowCalFruits.id}>
+                                                       {lowCalFruits.name}: &nbsp;
+                                                       <b>{lowCalFruits.calories}</b></li>);
 
     return(<ol>{listItems}</ol>);
 }
