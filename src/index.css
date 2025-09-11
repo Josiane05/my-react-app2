@@ -145,3 +145,16 @@ button:focus-visible {
   margin-bottom: 50px;
 
 }
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(103, 76%, 18%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
