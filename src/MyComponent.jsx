@@ -2,16 +2,24 @@ import React, {useState} from 'react';
 
 function MyComponent(){
 
-    let [name, setName] = useState();
+    const [name, setName] = useState("Guest");
+    const [age, setAge] = useState(0);
 
     const updateName = () => {
-        name = "spongebob";
-        console.log(name);
+        setName("spongebob");
+     
+    }
+
+    const incrementAge = () => {
+        setAge(age + 1);
     }
 
     return(<div>
                <p>Name: {name}</p>
                <button onClick={updateName}>set Name</button>
+
+                <p>Age: {age}</p>
+               <button onClick={incrementAge}>incrementAge</button>
            </div>)
 }
 export default MyComponent
