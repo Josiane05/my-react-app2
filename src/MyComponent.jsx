@@ -11,7 +11,7 @@ function MyComponent(){
     }
 
     const incrementAge = () => {
-        setAge(age + 1);
+        setAge(age + 2);
     }
 
     return(<div>
