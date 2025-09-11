@@ -133,3 +133,15 @@ button:focus-visible {
   border-radius: 5px;
   margin: 0;
 }
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif
+}
+
+.count-display{
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+}
