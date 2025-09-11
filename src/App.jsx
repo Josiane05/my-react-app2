@@ -7,6 +7,7 @@ import Client from './Client.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <UserGreeting isLoggedIn={true} username="Josiane"/>
           <Card/>
           <MyComponent/>
+          <Counter/>
           <Food/>
           <List/>
           <Client name="spongebob" age={30} isClient={true}/>
