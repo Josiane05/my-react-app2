@@ -3,14 +3,19 @@ import React, {useState} from 'react';
 function MyCompon(){
 
     const[name, setName] = useState("Guest");
-    const[quantity, setQuantity] = useState("");
+    const[quantity, setQuantity] = useState("1");
+    const[comment, setComment] = useState("");
 
     function handleNameChange(event){
         setName(event.target.value);
     }
 
     function handleQuantityChange(event){
-        setQuantity(encodeURIComponent.target.value);
+        setQuantity(event.target.value);
+    }
+
+    function handleCommentChange(event){
+        setComment(event.target.value);
     }
     
     return(<div>
@@ -19,6 +24,10 @@ function MyCompon(){
 
               <input value={quantity} onChange={handleQuantityChange} type="number"/>
               <p>Quantity: {quantity}</p>
+
+              <textarea value={comment} onChange={handleCommentChange}
+              placeholder="Enter delivery instructions"/>
+              <p>Comment: {comment}</p>
            </div>);
 }
 export default MyCompon
