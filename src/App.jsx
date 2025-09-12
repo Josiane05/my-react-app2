@@ -8,6 +8,7 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import MyCompon from './MyCompon.jsx'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Card/>
           <MyComponent/>
           <Counter/>
+          <MyCompon/>
           <Food/>
           <List/>
           <Client name="spongebob" age={30} isClient={true}/>
