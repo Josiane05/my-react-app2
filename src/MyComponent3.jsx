@@ -17,6 +17,7 @@ function MyComponent3(){
                 <ul>
                     {foods.map((food, index) => <li key = {index}>{food}</li>)}
                 </ul>
+                <input type="text" id="foodinput" placeholder="Enter Food Name"/>
             </div>);
 }
 export default MyComponent3;
