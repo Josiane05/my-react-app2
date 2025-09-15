@@ -8,10 +8,10 @@ function MyComponent2(){
 
 function handleYearChange(event){
 
-    setCar({...car, year: event.target.value});
+    setCar(c => ({...c, year: event.target.value}));
 }
 function handleMakeChange(event){
-    
+    setCar({}
 }
 function handleModelChange(event){
     
