@@ -11,10 +11,10 @@ function handleYearChange(event){
     setCar(c => ({...c, year: event.target.value}));
 }
 function handleMakeChange(event){
-    setCar({}
+    setCar(c => ({...c, make: event.target.value}));
 }
 function handleModelChange(event){
-    
+    setCar(c =>({...c, model: event.target.value}));
 }
 
     return<div>
