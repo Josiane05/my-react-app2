@@ -6,8 +6,9 @@ function MyComponent3(){
 
     function handleAddFood(){
 
+        const newFood = document.getElementById("foodInput").value;
+        document.getElementById("foodInput").value;
     }
-
     function handleRemoveFood(){
 
     }
@@ -18,6 +19,7 @@ function MyComponent3(){
                     {foods.map((food, index) => <li key = {index}>{food}</li>)}
                 </ul>
                 <input type="text" id="foodinput" placeholder="Enter Food Name"/>
+                <button onClick={handleAddFood}>Add Food</button>
             </div>);
 }
 export default MyComponent3;
