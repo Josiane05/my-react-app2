@@ -12,6 +12,7 @@ import MyCompon from './MyCompon.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent2 from './MyComponent2.jsx'
 import MyComponent3 from './MyComponent3.jsx'
+import ToDoList from './ToDoList.jsx'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <>
           <Header/>
           <UserGreeting isLoggedIn={true} username="Josiane"/>
+          <ToDoList/>
           <MyComponent2/>
           <Card/>
           <MyComponent/>
