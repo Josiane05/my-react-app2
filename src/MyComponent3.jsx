@@ -15,7 +15,7 @@ function MyComponent3(){
     return (<div>
                 <h1>List Of Food</h1>
                 <ul>
-                    {foods.map((food, index) => <li></li>)}
+                    {foods.map((food, index) => <li key = {index}>{food}</li>)}
                 </ul>
             </div>);
 }
