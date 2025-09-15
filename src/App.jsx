@@ -11,6 +11,7 @@ import Counter from './Counter.jsx'
 import MyCompon from './MyCompon.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent2 from './MyComponent2.jsx'
+import MyComponent3 from './MyComponent3.jsx'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <ColorPicker/>
           <Food/>
           <List/>
+          <MyComponent3/>
           <Client name="spongebob" age={30} isClient={true}/>
           <Client name="Claude" age={24} isClient={true}/>
           <Client name="Damour" age={25} isClient={false}/>
