@@ -4,13 +4,24 @@ function MyComponent2(){
 
     const[car, setCar] = useState({year: 2024, 
                                    make:"Ford", 
-                                   model:"Mustang"})
+                                   model:"Mustang"});
+
+function handleYearChange(event){
+
+    setCar({...car, year: 2025});
+}
+function handleMakeChange(event){
+    
+}
+function handleModelChange(event){
+    
+}
 
     return<div>
-              <p>Your Favorite Car is: {car.year} {car.make} {car.model}</p>
-              <input type="number" value={car.year}/><br/>
-              <input type="text" value={car.make}/><br/>
-              <input type="text" value={car.model}/><br/>
+              <p>My Favorite Car is: {car.year} {car.make} {car.model}</p>
+              <input type="number" value={car.year} onChange={handleYearChange}/><br/>
+              <input type="text" value={car.make} onChange={handleMakeChange}/><br/>
+              <input type="text" value={car.model} onChange={handleModelChange}/><br/>
           </div>;
 }
 export default MyComponent2
