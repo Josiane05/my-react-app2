@@ -8,6 +8,7 @@ function MyComponent2(){
 
     return<div>
               <p>Your Favorite Car is: {car.year} {car.make} {car.model}</p>
+              <input type="number" value={car.year}/>
           </div>;
 }
 export default MyComponent2
