@@ -10,6 +10,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import MyCompon from './MyCompon.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import MyComponent2 from './MyComponent2.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <>
           <Header/>
           <UserGreeting isLoggedIn={true} username="Josiane"/>
+          <MyComponent2/>
           <Card/>
           <MyComponent/>
           <Counter/>
